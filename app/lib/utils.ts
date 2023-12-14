@@ -59,7 +59,7 @@ export const generatePagination = (currentPage: number, totalPages: number) => {
   // another ellipsis, and the last page.
   return [
     1,
-    '...',
+    '....',
     currentPage - 1,
     currentPage,
     currentPage + 1,
